@@ -1,7 +1,8 @@
 import React from "react";
+import styles from "./index.module.css";
 
 const Button: React.FC = () => {
-  return <button>Button</button>;
+  return <button className={styles.button}>Button</button>;
 };
 
 export default Button;
